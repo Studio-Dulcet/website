@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: white;
+}
+@font-face {
+    font-family: "cat";
+    src: url("../resources/fonts/Catcafe-v5yM.ttf") format('truetype');
+}
+
+.nav{
+    position: relative;
+    margin:auto;
+    text-align: center;
+}
+
+.title{
+    position: relative;
+    margin: auto;
+    font-family: cat, serif;
+    font-size: 95px;
+    color: #d97c82;
+    text-align: center;
+}
+
+ul{
+    padding-left: 370px;
+    position: relative;
+    font-family: cat, serif;
+    margin: auto;
+    font-size: 50px;
+    list-style-type: none;
+    text-align: center;
+    overflow: hidden;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    color: #FFC0CB;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    --tw-blur: blur(8px);
+
+}
+.main-body{
+    position: relative;
+}
+.character{
+    position: absolute;
+    vertical-align: middle;
+    padding-bottom: 75px;
+    padding-left: 900px;
+}
+
+.white_circle{
+    opacity: .80;
+    position: absolute;
+    padding-top: 75px;
+    padding-left: 940px;
+}
+
+.pink_bg{
+    opacity: .50;
+    position: absolute;
+    padding-top: 75px;
+    padding-left: 150px;
+}
+.about-txt{
+    width: 750px;
+    padding-top: 150px;
+    padding-left: 180px;
+    position: absolute;
+    font-family: cat, serif;
+    font-size: 90px;
+    color: #d97c82;
+    text-align: center;
+    opacity: .70;
+}
+.sakura_bg{
+    opacity: .70;
+    position: absolute;
+    display: block;
+    padding-bottom: 60px;
+}
