@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 body{
+    position: absolute;
     background-color: white;
 }
 @font-face {
@@ -16,59 +17,52 @@ body{
     text-align: center;
 }
 
-.title{
-    position: relative;
-    margin: auto;
-    font-family: cat, serif;
-    font-size: 95px;
-    color: #d97c82;
-    text-align: center;
-}
-
 ul{
-    padding-left: 370px;
-    position: relative;
-    font-family: cat, serif;
-    margin: auto;
-    font-size: 50px;
     list-style-type: none;
-    text-align: center;
-    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 560px;
 }
 
 li{
-    float: left;
+    position: relative;
+    padding-top: 170px;
+    font-family: cat, serif;
+    display: block;
+    text-align: center;
 }
 
 li a{
-    color: #FFC0CB;
-    text-align: center;
-    padding: 14px 16px;
+    font-size: 80px;
+    width: 700px;
+    position: absolute;
+    color: #ff3652;
+    text-align: left;
     text-decoration: none;
 }
 
 li a:hover{
-    --tw-blur: blur(8px);
 
 }
 .main-body{
     position: relative;
 }
 .character{
+    display: block;
     position: absolute;
     vertical-align: middle;
-    padding-bottom: 75px;
     padding-left: 900px;
 }
 
 .white_circle{
+    display: block;
     opacity: .80;
     position: absolute;
-    padding-top: 75px;
     padding-left: 940px;
 }
 
 .pink_bg{
+    display: block;
     opacity: .50;
     position: absolute;
     padding-top: 75px;
@@ -87,6 +81,8 @@ li a:hover{
 }
 .sakura_bg{
     opacity: .70;
+    margin-left: auto;
+    margin-right: auto;
     position: absolute;
     display: block;
     padding-bottom: 60px;
