@@ -14,15 +14,16 @@ body{
     position: relative;
     margin:auto;
     text-align: center;
+    white-space: nowrap;
 }
 
 .title{
     position: relative;
-    margin: auto;
+    margin-left: 800px;
     font-family: cat, serif;
-    font-size: 95px;
-    color: #d97c82;
-    text-align: center;
+    font-size: 80px;
+    color: #ffffff;
+    white-space: nowrap;
 }
 
 ul{

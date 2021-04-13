@@ -11,6 +11,7 @@ body{
     src: url("../resources/fonts/Catcafe-v5yM.ttf") format('truetype');
 }
 
+
 .nav{
     position: relative;
     margin:auto;
@@ -36,7 +37,7 @@ li a{
     font-size: 80px;
     width: 700px;
     position: absolute;
-    color: #ff3652;
+    color: #d6808c;
     text-align: left;
     text-decoration: none;
 }
@@ -45,6 +46,9 @@ li a:hover{
 
 }
 .main-body{
+    height: auto; /*if more info comes on the page, it will stretch down*/
+    width: 1000px;
+    margin: 0 auto;
     position: relative;
 }
 .character{
