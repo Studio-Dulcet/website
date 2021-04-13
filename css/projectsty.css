@@ -10,13 +10,6 @@ body{
     src: url("../resources/fonts/Catcafe-v5yM.ttf") format('truetype');
 }
 
-.nav{
-    position: relative;
-    margin:auto;
-    text-align: center;
-    white-space: nowrap;
-}
-
 .title{
     position: relative;
     margin-left: 800px;
@@ -26,29 +19,10 @@ body{
     white-space: nowrap;
 }
 
-ul{
-    padding-left: 370px;
+.red_square{
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
-    font-family: cat, serif;
-    margin: auto;
-    font-size: 50px;
-    list-style-type: none;
-    text-align: center;
-    overflow: hidden;
-}
-
-li{
-    float: left;
-}
-
-li a{
-    color: #FFC0CB;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover{
-    --tw-blur: blur(8px);
-
+    display: block;
+    padding-bottom: 60px;
 }
