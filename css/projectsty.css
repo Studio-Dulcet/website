@@ -18,7 +18,20 @@ body{
     color: #ffffff;
     white-space: nowrap;
 }
+.temp{
+    position: absolute;
+    display: block;
+}
 
+.info{
+    position: absolute;
+    color: white;
+    font-family: cat, serif;
+    font-size: 50px;
+    text-align: center;
+    padding-left: 800px;
+    padding-top: 300px;
+}
 .red_square{
 
     position: relative;
