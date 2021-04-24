@@ -40,3 +40,10 @@ $(window).on("scroll", function() {
     $('nav').removeClass('black');
   }
 })
+$('.navTrigger').click(function () {
+  $(this).toggleClass('active');
+  console.log("Clicked menu");
+  $("#mainListDiv").toggleClass("show_list");
+  $("#mainListDiv").fadeIn();
+
+});
