@@ -22,7 +22,7 @@
 
 .nav div.logo a {
     text-decoration: none;
-    color: #ffffff;
+    color: #000000;
     font-size: 40px;
 }
 
@@ -53,7 +53,7 @@
 
 .nav div.main_list ul li a {
     text-decoration: none;
-    color: #ffffff;
+    color: #000000;
     line-height: 65px;
     font-size: 2.4rem;
 }
@@ -331,26 +331,14 @@
     opacity: .60;
 }
 
-.title{
-    position: relative;
-    margin-left: 700px;
-    font-family: cat, serif;
-    font-size: 80px;
-    color: #fcc6bf;
-    white-space: nowrap;
-}
-
-.title:visited{
-    color: #FCC6BF;
-    text-decoration: none;
-}
-
-.information{
-    padding-left: 80px;
-    padding-top: 60px;
+.contacts{
+    position: absolute;
+    top: 30px;
 }
 
 .smeekimg{
+    position: absolute;
+    top: 120px;
     height: 200px;
 }
 
@@ -365,11 +353,11 @@
 }
 
 .smeekicon1{
-    margin-outside: 30px;
-    padding-top: 27px;
+    padding-top: 21px;
     position: absolute;
     height: 50px;
-    left: 240px;
+    left: 250px;
+    top: 50px;
 }
 
 .smeekicon2{
@@ -380,8 +368,10 @@
 }
 
 .widerimg{
-    padding-top: 50px;
+    position: absolute;
+    top: 220px;
     height: 200px;
+    left: 0px;
 }
 
 .widerinfo{
@@ -390,16 +380,15 @@
     color: #FCC6BF;
     font-family: cat, serif;
     font-size: 30px;
-    top: 373px;
-    padding-left: 300px;
+    top: 222px;
 }
 
 .widericon1{
-    margin-outside: 30px;
-    padding-top: 27px;
+    padding-top: 21px;
     position: absolute;
     height: 50px;
-    left: 240px;
+    left: -50px;
+    top: 50px;
 }
 
 .widericon2{
@@ -410,12 +399,12 @@
 }
 
 .shioriimg{
-    padding-top: 50px;
+    position: absolute;
     height: 200px;
+    top: 560px;
 }
 
 .shioriinfo{
-    padding-top: 60px;
     position: absolute;
     color: #FCC6BF;
     font-family: cat, serif;
@@ -426,10 +415,11 @@
 
 .shioriicon1{
     margin-outside: 30px;
-    padding-top: 27px;
+    padding-top: 20px;
     position: absolute;
+    top: -10px;
     height: 50px;
-    left: 240px;
+    left: 250px;
 }
 
 .shioriicon2{
@@ -437,20 +427,4 @@
     padding-top: 95px;
     height: 50px;
     left: 240px;
-}
-
-.please{
-    padding-left: 900px;
-}
-
-.square{
-    position: absolute;
-    top: 130px;
-}
-.pleasetxt {
-    top: 100px;
-    font-size: 50px;
-    position: absolute;
-    font-family: cat, serif;
-    color: #000000;
 }
