@@ -354,11 +354,11 @@
 }
 
 #wider {
-    position: absolute;
+    position: relative;
     width: 50%;
     height: auto;
     top: 80px;
-    left: 950px;
+    left: 590px;
 }
 .widerimg{
     display: flex;
@@ -377,4 +377,53 @@
     display: flex;
     width: 50%;
     height: auto;
+}
+.smeekoverlay{
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     height: 100%;
+     width: 100%;
+     opacity: 0;
+     transition: .5s ease;
+     background-color: #ffffff;
+}
+#smeek:hover .smeekoverlay{
+    opacity: .5;
+}
+
+.wideroverlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #ffffff;
+}
+
+#wider:hover .wideroverlay{
+    opacity: .5;
+}
+
+.shiorioverlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #ffffff;
+}
+
+#shiori:hover .shiorioverlay{
+    opacity: .5;
 }
