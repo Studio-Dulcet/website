@@ -333,7 +333,8 @@
 
 #contact{
     position: relative;
-    top: 90px;
+    top: 150px;
+
 
 }
 
@@ -342,7 +343,7 @@
     width: 50%;
     height: auto;
     top: 80px;
-    left: 0px;
+    left: 100px;
 }
 
 .smeekimg{
@@ -357,7 +358,7 @@
     width: 50%;
     height: auto;
     top: 80px;
-    left: 350px;
+    left: 950px;
 }
 .widerimg{
     display: flex;
@@ -370,7 +371,7 @@
     width: 50%;
     height: auto;
     top: 80px;
-    left: 350px;
+    left: 530px;
 }
 .shioriimg{
     display: flex;
