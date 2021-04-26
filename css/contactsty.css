@@ -1,128 +1,479 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @font-face {
     font-family: "cat";
     src: url("../resources/fonts/Catcafe-v5yM.ttf") format('truetype');
 }
 
-.title{
-    position: relative;
-    margin-left: 700px;
-    font-family: cat, serif;
-    font-size: 80px;
-    color: #fcc6bf;
-    white-space: nowrap;
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+    font-size: 62.5%;
+    font-size: 10px;
+}
+/* start of nav */
+
+.nav {
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    line-height: 65px;
+    text-align: center;
+    font-family: Quicksand, serif;
 }
 
-.title:visited{
-    color: #FCC6BF;
+.nav div.logo {
+    float: left;
+    width: auto;
+    height: auto;
+    padding-left: 3rem;
+}
+
+.nav div.logo a {
     text-decoration: none;
+    color: #000000;
+    font-size: 40px;
 }
 
-.information{
-    padding-left: 80px;
-    padding-top: 60px;
+.nav div.logo a:hover {
+    color: #a6ddd5;
+}
+
+.nav div.main_list {
+    height: 65px;
+    float: right;
+}
+
+.nav div.main_list ul {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav div.main_list ul li {
+    width: auto;
+    height: 65px;
+    padding: 0;
+    padding-right: 3rem;
+}
+
+.nav div.main_list ul li a {
+    text-decoration: none;
+    color: #000000;
+    line-height: 65px;
+    font-size: 2.4rem;
+}
+
+.nav div.main_list ul li a:hover {
+    color: #ace2d7;
+}
+
+
+/* Home section */
+
+.home {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://wallpaperaccess.com/full/628286.jpg);
+    background-position: center top;
+    background-size:cover;
+}
+
+.navTrigger {
+    display: none;
+}
+
+.nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+/* Media qurey section */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .navTrigger {
+        display: block;
+    }
+    .nav div.logo {
+        margin-left: 15px;
+    }
+    .nav div.main_list {
+        width: 100%;
+        height: 0;
+        overflow: hidden;
+    }
+    .nav div.show_list {
+        height: auto;
+        display: none;
+    }
+    .nav div.main_list ul {
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background-color: #ffffff;
+        /*same background color of navbar*/
+        background-position: center top;
+    }
+    .nav div.main_list ul li {
+        width: 100%;
+        text-align: right;
+    }
+    .nav div.main_list ul li a {
+        text-align: center;
+        width: 100%;
+        font-size: 3rem;
+        padding: 20px;
+    }
+    .nav div.media_button {
+        display: block;
+    }
+}
+
+/* Animation */
+/* Inspiration taken from Dicson https://codemyui.com/simple-hamburger-menu-x-mark-animation/ */
+.navTrigger {
+    cursor: pointer;
+    width: 30px;
+    height: 25px;
+    margin: auto;
+    position: absolute;
+    right: 30px;
+    top: 0;
+    bottom: 0;
+}
+
+.navTrigger i {
+    background-color: #fff;
+    border-radius: 2px;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px;
+}
+
+.navTrigger i:nth-child(1) {
+    -webkit-animation: outT 0.8s backwards;
+    animation: outT 0.8s backwards;
+    -webkit-animation-direction: reverse;
+    animation-direction: reverse;
+}
+
+.navTrigger i:nth-child(2) {
+    margin: 5px 0;
+    -webkit-animation: outM 0.8s backwards;
+    animation: outM 0.8s backwards;
+    -webkit-animation-direction: reverse;
+    animation-direction: reverse;
+}
+
+.navTrigger i:nth-child(3) {
+    -webkit-animation: outBtm 0.8s backwards;
+    animation: outBtm 0.8s backwards;
+    -webkit-animation-direction: reverse;
+    animation-direction: reverse;
+}
+
+.navTrigger.active i:nth-child(1) {
+    -webkit-animation: inT 0.8s forwards;
+    animation: inT 0.8s forwards;
+}
+
+.navTrigger.active i:nth-child(2) {
+    -webkit-animation: inM 0.8s forwards;
+    animation: inM 0.8s forwards;
+}
+
+.navTrigger.active i:nth-child(3) {
+    -webkit-animation: inBtm 0.8s forwards;
+    animation: inBtm 0.8s forwards;
+}
+
+@-webkit-keyframes inM {
+    50% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(45deg);
+    }
+}
+
+@keyframes inM {
+    50% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(45deg);
+    }
+}
+
+@-webkit-keyframes outM {
+    50% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(45deg);
+    }
+}
+
+@keyframes outM {
+    50% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(45deg);
+    }
+}
+
+@-webkit-keyframes inT {
+    0% {
+        -webkit-transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        -webkit-transform: translateY(9px) rotate(0deg);
+    }
+    100% {
+        -webkit-transform: translateY(9px) rotate(135deg);
+    }
+}
+
+@keyframes inT {
+    0% {
+        transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        transform: translateY(9px) rotate(0deg);
+    }
+    100% {
+        transform: translateY(9px) rotate(135deg);
+    }
+}
+
+@-webkit-keyframes outT {
+    0% {
+        -webkit-transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        -webkit-transform: translateY(9px) rotate(0deg);
+    }
+    100% {
+        -webkit-transform: translateY(9px) rotate(135deg);
+    }
+}
+
+@keyframes outT {
+    0% {
+        transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        transform: translateY(9px) rotate(0deg);
+    }
+    100% {
+        transform: translateY(9px) rotate(135deg);
+    }
+}
+
+@-webkit-keyframes inBtm {
+    0% {
+        -webkit-transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        -webkit-transform: translateY(-9px) rotate(0deg);
+    }
+    100% {
+        -webkit-transform: translateY(-9px) rotate(135deg);
+    }
+}
+
+@keyframes inBtm {
+    0% {
+        transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        transform: translateY(-9px) rotate(0deg);
+    }
+    100% {
+        transform: translateY(-9px) rotate(135deg);
+    }
+}
+
+@-webkit-keyframes outBtm {
+    0% {
+        -webkit-transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        -webkit-transform: translateY(-9px) rotate(0deg);
+    }
+    100% {
+        -webkit-transform: translateY(-9px) rotate(135deg);
+    }
+}
+
+@keyframes outBtm {
+    0% {
+        transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        transform: translateY(-9px) rotate(0deg);
+    }
+    100% {
+        transform: translateY(-9px) rotate(135deg);
+    }
+}
+
+.affix {
+    padding: 0;
+    background-color: #ff9a9a;
+    opacity: 1;
+}
+
+#contact{
+    position: relative;
+    top: 150px;
+
+
+}
+
+#smeek {
+    position: absolute;
+    width: 50%;
+    height: auto;
+    top: 80px;
+    left: 100px;
 }
 
 .smeekimg{
-    height: 200px;
+    display: flex;
+    width: 50%;
+    height: auto;
+
 }
 
-.smeekinfo{
-    padding-top: 60px;
-    position: absolute;
-    color: #FCC6BF;
-    font-family: cat, serif;
-    font-size: 30px;
-    top: 122px;
-    padding-left: 300px;
+#wider {
+    position: relative;
+    width: 50%;
+    height: auto;
+    top: 80px;
+    left: 590px;
 }
-
-.smeekicon1{
-    margin-outside: 30px;
-    padding-top: 27px;
-    position: absolute;
-    height: 50px;
-    left: 240px;
-}
-
-.smeekicon2{
-    position: absolute;
-    padding-top: 95px;
-    height: 50px;
-    left: 240px;
-}
-
 .widerimg{
-    padding-top: 50px;
-    height: 200px;
+    display: flex;
+    width: 50%;
+    height: auto;
 }
 
-.widerinfo{
-    padding-top: 60px;
+#shiori {
     position: absolute;
-    color: #FCC6BF;
-    font-family: cat, serif;
-    font-size: 30px;
-    top: 373px;
-    padding-left: 300px;
+    width: 50%;
+    height: auto;
+    top: 80px;
+    left: 540px;
 }
-
-.widericon1{
-    margin-outside: 30px;
-    padding-top: 27px;
-    position: absolute;
-    height: 50px;
-    left: 240px;
-}
-
-.widericon2{
-    position: absolute;
-    padding-top: 95px;
-    height: 50px;
-    left: 240px;
-}
-
 .shioriimg{
-    padding-top: 50px;
-    height: 200px;
+    display: flex;
+    width: 50%;
+    height: auto;
+}
+.smeekoverlay{
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     height: 100%;
+     width: 100%;
+     opacity: 0;
+     transition: .5s ease;
+     background-color: #ffffff;
+}
+#smeek:hover .smeekoverlay{
+    opacity: .5;
 }
 
-.shioriinfo{
-    padding-top: 60px;
+.wideroverlay{
     position: absolute;
-    color: #FCC6BF;
-    font-family: cat, serif;
-    font-size: 30px;
-    top: 627px;
-    padding-left: 300px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #ffffff;
 }
 
-.shioriicon1{
-    margin-outside: 30px;
-    padding-top: 27px;
-    position: absolute;
-    height: 50px;
-    left: 240px;
+#wider:hover .wideroverlay{
+    opacity: .5;
 }
 
-.shioriicon2{
+.shiorioverlay{
     position: absolute;
-    padding-top: 95px;
-    height: 50px;
-    left: 240px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #ffffff;
 }
 
-.please{
-    padding-left: 900px;
+#shiori:hover .shiorioverlay{
+    opacity: .5;
 }
 
-.square{
-    position: absolute;
-    top: 130px;
-}
-.pleasetxt {
-    top: 100px;
-    font-size: 50px;
-    position: absolute;
-    font-family: cat, serif;
+.smeektxt{
     color: #000000;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 190px;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.shioritxt{
+    color: #000000;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 190px;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.widertxt{
+    color: #000000;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 190px;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
