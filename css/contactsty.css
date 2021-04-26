@@ -427,3 +427,37 @@
 #shiori:hover .shiorioverlay{
     opacity: .5;
 }
+
+.smeektxt{
+    color: #000000;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 190px;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.shioritxt{
+    color: #000000;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 190px;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.widertxt{
+    color: #000000;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 190px;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
