@@ -348,10 +348,10 @@ body {
 }
 
 #contact{
-    position: relative;
-    top: 150px;
-
-
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    align-items: center;
 }
 
 #smeek {
@@ -359,7 +359,7 @@ body {
     width: 50%;
     height: auto;
     top: 80px;
-    left: 100px;
+    margin-right: 190px;
 }
 
 .smeekimg{
@@ -374,25 +374,26 @@ body {
     width: 50%;
     height: auto;
     top: 80px;
-    left: 590px;
 }
 .widerimg{
     display: flex;
     width: 50%;
     height: auto;
+    float: left;
 }
 
 #shiori {
-    position: absolute;
+    position: relative;
     width: 50%;
     height: auto;
     top: 80px;
-    left: 540px;
 }
 .shioriimg{
     display: flex;
+    position: relative;
     width: 50%;
     height: auto;
+    float: left;
 }
 .smeekoverlay{
      position: absolute;
@@ -428,7 +429,7 @@ body {
 }
 
 .shiorioverlay{
-    position: absolute;
+    position: relative;
     top: 0;
     bottom: 0;
     left: 0;
