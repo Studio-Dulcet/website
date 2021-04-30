@@ -349,8 +349,8 @@ body {
 
 #contact{
     position: absolute;
-    top: 10%;
-    left: 15%;
+    top: 20%;
+    left: 13%;
     align-items: center;
 }
 
@@ -358,7 +358,6 @@ body {
     position: absolute;
     width: 50%;
     height: auto;
-    top: 80px;
     margin-right: 190px;
 }
 
@@ -370,31 +369,33 @@ body {
 }
 
 #wider {
-    position: relative;
+    position: absolute;
     width: 50%;
     height: auto;
-    top: 80px;
+    left: 50%;
+    top: 0;
+
 }
 .widerimg{
     display: flex;
     width: 50%;
     height: auto;
-    float: left;
+
 }
 
 #shiori {
     position: relative;
     width: 50%;
     height: auto;
-    top: 80px;
 }
+
 .shioriimg{
     display: flex;
-    position: relative;
     width: 50%;
     height: auto;
-    float: left;
+
 }
+
 .smeekoverlay{
      position: absolute;
      top: 0;
@@ -429,7 +430,7 @@ body {
 }
 
 .shiorioverlay{
-    position: relative;
+    position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
@@ -450,7 +451,7 @@ body {
     font-size: 20px;
     position: absolute;
     top: 50%;
-    left: 190px;
+    left: 25%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -461,7 +462,7 @@ body {
     font-size: 20px;
     position: absolute;
     top: 50%;
-    left: 190px;
+    left: 25%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -472,7 +473,7 @@ body {
     font-size: 20px;
     position: absolute;
     top: 50%;
-    left: 190px;
+    left: 25%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
