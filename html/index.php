@@ -20,13 +20,13 @@
 <nav class="nav">
     <div class="container">
         <div class="logo">
-            <a href="../html/index.html">Studio Dulcet</a>
+            <a href="index.php">Studio Dulcet</a>
         </div>
         <div id="mainListDiv" class="main_list">
             <ul class="navlinks">
-                <li><a href="../html/projects.html">Projects</a></li>
-                <li><a href="../html/contribute.html">Contribute</a></li>
-                <li><a href="../html/contact.html">Contact</a></li>
+                <li><a href="projects.php">Projects</a></li>
+                <li><a href="contribute.php">Contribute</a></li>
+                <li><a href="contact.php">Contact</a></li>
                 <li><a href="https://discord.gg/j4wysvegaw" target = "_blank" rel="noopener noreferrer">Discord</a></li>
             </ul>
         </div>
