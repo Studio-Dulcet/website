@@ -344,14 +344,29 @@ body {
 
 .affix {
     padding: 0;
-    background-color: #ff9a9a;
-    opacity: 1;
+    background-color: #000000;
+    opacity: .5;
 }
 
-#infobox{
+.txt{
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    width: 500px;
+    font-size: 20px;
+    color: white;
+}
+
+#contentbox{
     position: absolute;
     top: 50%;
     left: 50%;
     align-items: center;
-    color: #ffffff;
+}
+
+.miki{
+    position: absolute;
+    float: right;
+    top: 5%;
+    left: 60%;
 }
