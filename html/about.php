@@ -9,7 +9,7 @@
 </head>
 <body>
 <div class = "nav">
-    <div class="title"><a href = "index.html">^Studio Dulcet`</a></div>
+    <div class="title"><a href = "index.php">^Studio Dulcet`</a></div>
 
 </div>
 <div class = "temp">
