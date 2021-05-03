@@ -17,6 +17,7 @@ body {
     font-family: "Quicksand", sans-serif;
     font-size: 62.5%;
     font-size: 10px;
+
 }
 /*-- Inspiration taken from abdo steif -->
 /* --> https://codepen.io/abdosteif/pen/bRoyMb?editors=1100*/
@@ -46,7 +47,7 @@ body {
 }
 
 .nav div.logo a:hover {
-    color: #a6ddd5;
+    color: #ff74df;
 }
 
 .nav div.main_list {
@@ -78,7 +79,7 @@ body {
 }
 
 .nav div.main_list ul li a:hover {
-    color: #ace2d7;
+    color: #ff74df;
 }
 
 
@@ -87,7 +88,7 @@ body {
 .home {
     width: 100%;
     height: 100vh;
-    background-image: url(https://i.pinimg.com/originals/de/a5/61/dea56154a0018669dc4201a955a5133f.jpg);
+    background-image: url("../resources/strawberryheader.png");
     background-position: center top;
     background-size:cover;
 }
@@ -346,7 +347,7 @@ body {
 
 .affix {
     padding: 0;
-    background-color: #000000;
+    background-color: #cb3f3f;
     opacity: .60;
 }
 /* end of nav */
@@ -356,6 +357,7 @@ body {
     text-align:center;
     font-size: 40px;
     font-family: cat, serif;
+    color: #FFA598;
 }
 .p-5 {
     text-align: center;
@@ -363,6 +365,7 @@ body {
     padding-right:15%;
     font-size: 20px;
     font-family: cat, serif;
+    color: #D9AEA1;
 }
 
 .gh{
@@ -380,4 +383,21 @@ body {
     font-family: cat, serif;
     top: 130%;
     left: 34%;
+}
+
+#dulcetindex{
+    position: absolute;
+    top: 100%;
+    left: 65%;
+
+}
+
+#img{
+    height: auto;
+    width: 300px;
+    opacity: .60;
+}
+
+.nonav{
+    overflow: hidden;
 }

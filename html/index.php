@@ -43,13 +43,19 @@
 </section>
 <div style="height: 1000px">
     <!-- just to make scrolling effect possible -->
+    <div class = "nonav">
     <h5 class="welcome">Welcome to Studio Dulcet!</h5>
     <div class = "gh"><iframe src="https://github.com/sponsors/sme-ek/card" title="Sponsor sme-ek" height="225" width="600" style="border: 0;"></iframe></div>
     <p class="p-5">We are a small studio that focuses on creating fun, open-source games. `
     </p>
     <p class = "p-5" id = "bus">For business inquiries, please contact smeek@studiodulcet.com</p>
+    <div class = "d-flex justify-content-center center my-auto" id = "dulcetindex">
+        <div class = "container-fluid" id = "img">
+    <img src = "../resources/dulcet index.png" width = "600" height = "600">
+        </div>
+    </div>
 </div>
-
+</div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="js/scripts.js"></script>
 <!-- needed on every page -->
