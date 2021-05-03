@@ -51,7 +51,7 @@
     <p class = "p-5" id = "bus">For business inquiries, please contact smeek@studiodulcet.com</p>
     <div class = "d-flex justify-content-center center my-auto" id = "dulcetindex">
         <div class = "container-fluid" id = "img">
-    <img src = "https://static.wikia.nocookie.net/allthetropes/images/c/c1/PMMM_Madoka_Kaname.png/revision/latest/scale-to-width-down/330?cb=20200605005745" width = "400" height = "600">
+    <img src = "../resources/madoka.png" width = "400" height = "600">
         </div>
     </div>
 </div>
