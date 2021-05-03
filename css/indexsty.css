@@ -347,13 +347,13 @@ body {
 
 .affix {
     padding: 0;
-    background-color: #cb3f3f;
+    background-color: #ea7070;
     opacity: .60;
 }
 /* end of nav */
 
 .welcome {
-    padding-top: 30px;
+    padding-top: 50px;
     text-align:center;
     font-size: 40px;
     font-family: cat, serif;
@@ -365,7 +365,7 @@ body {
     padding-right:15%;
     font-size: 20px;
     font-family: cat, serif;
-    color: #D9AEA1;
+    color: #FCCDCC;
 }
 
 .gh{
@@ -387,7 +387,7 @@ body {
 
 #dulcetindex{
     position: absolute;
-    top: 100%;
+    top: 101%;
     left: 65%;
 
 }
@@ -395,7 +395,7 @@ body {
 #img{
     height: auto;
     width: 300px;
-    opacity: .60;
+    opacity: .90;
 }
 
 .nonav{
