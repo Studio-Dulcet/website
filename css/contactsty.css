@@ -403,7 +403,7 @@ body {
      background-color: #ffffff;
 }
 #smeek:hover .smeekoverlay{
-    opacity: .5;
+    opacity: .8;
 }
 
 .wideroverlay{
@@ -420,7 +420,7 @@ body {
 }
 
 #wider:hover .wideroverlay{
-    opacity: .5;
+    opacity: .6;
 }
 
 .shiorioverlay{
@@ -437,7 +437,7 @@ body {
 }
 
 #shiori:hover .shiorioverlay{
-    opacity: .5;
+    opacity: .6;
 }
 
 .smeektxt{
