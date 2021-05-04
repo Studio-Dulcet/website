@@ -352,59 +352,35 @@ body {
 }
 /* end of nav */
 
-.welcome {
-    position: absolute;
-    top: 110%;
-    font-family: cat, serif;
-}
-.p-5 {
-    font-family: cat, serif;
-    position: absolute;
-    top: 115%;
-}
-
-.gh{
-    position: relative;
-    padding-top: 50px;
-    top: 150%;
-    left: 5.5%;
-}
-
-#bus{
-
-}
-
-#dulcetindex{
-    position: absolute;
-    top: 101%;
-    left: 70%;
-}
-
-#img{
-    position: absolute;
-    height: auto;
-    width: 300px;
-    opacity: .90;
-    left: 100%;
-}
-
-.nonav{
-    overflow: hidden;
-}
-
-#bodycontainer{
-    position: absolute;
-    top: 115%;
-    left: 30%;
-    align-items: center;
-}
-
-.bodytxt{
-    font-family: cat, serif;
-    top: -30%;
+.bodytxt {
     position: absolute;
     text-align: center;
     align-items: center;
     width: 500px;
     font-size: 20px;
+    top: 100%
+}
+
+#infobox{
+    position: absolute;
+    top: 105%;
+    left: 50%;
+    align-items: center;
+}
+
+#github{
+    position: absolute;
+    top: 140%;
+    left: 37%;
+}
+
+#twitter{
+    position: absolute;
+    top: 135%;
+    left: 46%;
+}
+
+#dulcetindex{
+    position: absolute;
+    left: 5%;
 }

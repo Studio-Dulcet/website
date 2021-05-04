@@ -44,27 +44,32 @@
 <div style="height: 1000px">
 
     <div class = "nonav">
-        <div class = "d-flex justify-content-center center my-auto" id = "bodycontainer">
-            <div class = "gh"><iframe src="https://github.com/sponsors/sme-ek/card" title="Sponsor sme-ek" height="225" width="600" style="border: 0;"></iframe></div>
 
-                <div class = "bodytxt">
-                    <p>Welcome to Studio Dulcet! <br> <br>
-                       We are a small studio that focuses on creating fun, open-source games. `<br> <br> <br></p>
-                        <p class = "p-5" id = "bus">For business inquiries, please contact smeek@studiodulcet.com</p>
-    </div>
-
-    </div>
-
-    <div class = "d-flex justify-content-center center my-auto" id = "dulcetindex">
-        <div class = "container-fluid" id = "img">
-    <img src = "../resources/madoka.png" width = "400" height = "600">
+        <div class = "d-flex justify-content-center center my-auto" id = "github">
+            <div class = "gh"><iframe src="https://github.com/sponsors/sme-ek/card" title="Sponsor sme-ek" height="700" width="550" style="border: 0;"></iframe></div>
         </div>
-    </div>
-</div>
+        <div class = "d-flex justify-content-center center my-auto" id = "twitter">
+            <div class = "twt"><a href="https://twitter.com/StudioDulcet?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @StudioDulcet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+        </div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="js/scripts.js"></script>
-<!-- needed on every page -->
+        <div class = "d-flex justify-content-center center my-auto" id = "infobox">
+                  <div class = "bodytxt">
+                      <p>Welcome to Studio Dulcet! <br> <br>
+                         We are a small studio that focuses on creating fun, open-source games. `<br> </p>
+                          <p class = "p-5" id = "bus">For business inquiries, please contact smeek@studiodulcet.com</p>
+      </div>
+      </div>
+
+            <div class = "d-flex justify-content-center center my-auto" id = "dulcetindex">
+          <div class = "container-fluid" id = "img">
+      <img src = "../resources/madoka.png" width = "400" height = "600">
+          </div>
+      </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <!-- needed on every page -->
 
 <script>
     $(window).scroll(function() {
