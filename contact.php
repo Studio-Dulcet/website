@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Studio Dulcet | Contribute</title>
-    <link rel="stylesheet" href="../css/contributesty.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <title>Studio Dulcet | Contact Us</title>
+            <link rel="stylesheet" href="css/contactsty.css">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
@@ -38,16 +38,52 @@
 
 <!-- end of nav bar -->
 
-<div class = "d-flex justify-content-center center my-auto" id = "infobox">
-    <div class = "contxt">
-        <h1> so you wanna contribute</h1> <br>
-        that's great! we always love contributors. <br>
-        we allow outside contributors to our <a href="https://github.com/Studio-Dulcet">github org</a> <br>
-        our main repositories are <br>
-        <a href="https://github.com/Studio-Dulcet/i-wish-you-were-here">i wish you were here</a> <br>
-        <a href="https://github.com/Studio-Dulcet/website">and our website</a> <br>
-        <h2>happy contributing!</h2>
+<div class = "d-flex justify-content-center center my-auto" id = "rulesbox">
+    <div class = "container-fluid" id = "rules">
+<p>Please just be respectful if you contact one of us!<br> Keep in mind that we are people too. <3<br> Generally, the fastes method of contact would be to try to talk to smeek through discord.</p>
     </div>
+</div>
+
+<div class = "d-flex justify-content-center center my-auto" id = "contact">
+
+<div class = "container-fluid" id = "smeek">
+    <img class = "smeekimg" src="resources/smeek.png">
+        <div class = "smeekoverlay">
+            <div class = "smeektxt">
+                <h1>developer</h1> <br>
+                smeek@studiodulcet.com <br>
+                smeek#0001 <br>
+                EST
+            </div>
+        </div>
+</div>
+
+
+
+<div class = "container-fluid" id = "shiori">
+        <img class = "shioriimg" src="resources/shiori.png">
+            <div class = "shiorioverlay">
+                <div class = "shioritxt">
+                    <h1>developer </h1> <br>
+                    shiori@studiodulcet.com <br>
+                    shiori #1455 <br>
+                    HKT
+                </div>
+        </div>
+</div>
+
+<div class = "container-sm" id = "wider">
+        <img class = "widerimg" src="resources/wider.png">
+        <div class = "wideroverlay">
+            <div class = "widertxt">
+                <h1>story man</h1> <br>
+                wider@studiodulcet.com <br>
+                YEETboi89#0002 <br>
+                PST
+            </div>
+        </div>
+    </div>
+
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -68,4 +104,5 @@
 <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
 </body>
+
 </html>
