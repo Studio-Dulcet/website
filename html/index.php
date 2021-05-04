@@ -56,7 +56,7 @@
                   <div class = "bodytxt">
                       <p>Welcome to Studio Dulcet! <br> <br>
                          We are a small studio that focuses on creating fun, open-source games. `<br> </p>
-                          <p class = "p-5" id = "bus">For business inquiries, please contact smeek@studiodulcet.com</p>
+                      <p class = "p-5" id = "bus">For business inquiries, please contact <a href = "mailto:smeek@studiodulcet.com">smeek@studiodulcet.com</a></p>
       </div>
       </div>
 
