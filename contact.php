@@ -47,7 +47,7 @@
 <div class = "d-flex justify-content-center center my-auto" id = "contact">
 
 <div class = "container-fluid" id = "smeek">
-    <img class = "smeekimg" src="resources/smeek.png">
+    <img class = "smeekimg" src="images/smeek.png">
         <div class = "smeekoverlay">
             <div class = "smeektxt">
                 <h1>developer</h1> <br>
@@ -61,7 +61,7 @@
 
 
 <div class = "container-fluid" id = "shiori">
-        <img class = "shioriimg" src="resources/shiori.png">
+        <img class = "shioriimg" src="images/shiori.png">
             <div class = "shiorioverlay">
                 <div class = "shioritxt">
                     <h1>developer </h1> <br>
@@ -73,7 +73,7 @@
 </div>
 
 <div class = "container-sm" id = "wider">
-        <img class = "widerimg" src="resources/wider.png">
+        <img class = "widerimg" src="images/wider.png">
         <div class = "wideroverlay">
             <div class = "widertxt">
                 <h1>story man</h1> <br>

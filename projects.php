@@ -44,7 +44,7 @@
 </div>
 
 <div class = "container-fluid" id = "#image">
-    <img class = "miki" src="resources/murder.png">
+    <img class = "miki" src="images/murder.png">
 </div>
 <div class="version">
     <div class="demo version-section"><a href="https://github.com/Studio-Dulcet/i-wish-you-were-here" class="github-corner">

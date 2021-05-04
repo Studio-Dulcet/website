@@ -62,7 +62,7 @@
 
             <div class = "d-flex justify-content-center center my-auto" id = "dulcetindex">
           <div class = "container-fluid" id = "img">
-      <img src = "resources/madoka.png" width = "400" height = "600">
+      <img src = "images/madoka.png" width = "400" height = "600">
           </div>
       </div>
   </div>
