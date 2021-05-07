@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: "cat";
+    src: url("../fonts/Catcafe-v5yM.ttf") format('truetype');
+}
+
 :root {
     --dulcetpink: #FFB6D8;
     --dulcetblue: #8CFFFB;
@@ -10,7 +15,7 @@
     --breakpoint-md: 768px;
     --breakpoint-lg: 992px;
     --breakpoint-xl: 1200px;
-    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family:"cat", sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
@@ -21,7 +26,7 @@
 }
 
 html {
-    font-family: sans-serif;
+    font-family: "cat", sans-serif;
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -9963,7 +9968,8 @@ p {
     font-size: 5rem;
     font-weight: 100;
     line-height: 4rem;
-    color: #FFB6D8 !important
+    color: #FFB6D8 !important;
+    font-family: "cat", sans-serif;
 }
 
 .page-section {
@@ -10001,7 +10007,7 @@ p {
 #mainNav {
     background-color: #FFB6D8;
     opacity: .6;
-    font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: "cat", sans-serif;
 }
 #mainNav .navbar-brand {
     color: #FF6B71;

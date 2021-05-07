@@ -1,5 +1,8 @@
 @charset "UTF-8";
-
+@font-face {
+  font-family: "cat";
+  src: url("../fonts/Catcafe-v5yM.ttf") format('truetype');
+}
 :root {
   --dulcetpink: #FFB6D8;
   --dulcetblue: #8CFFFB;
@@ -9936,9 +9939,7 @@ body {
   background-position: center;
   background-size: cover;
 }
-.projectspg{
-  background: black !important;
-}
+
 p {
   line-height: 1.75;
 }
@@ -9963,7 +9964,8 @@ p {
   font-size: 5rem;
   font-weight: 100;
   line-height: 4rem;
-  color: #FFB6D8 !important
+  color: #FFB6D8 !important;
+  font-family: "cat", sans-serif;
 }
 
 .page-section {
@@ -10004,7 +10006,7 @@ p {
   font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 #mainNav .navbar-brand {
-  color: #FF6B71;
+  color: #ff0008;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
   color: rgba(255, 255, 255, 0.7);
@@ -10021,7 +10023,7 @@ p {
     color: rgba(255, 255, 255, 0.4);
   }
   #mainNav .navbar-nav .nav-item.active .nav-link:hover {
-    color: #FF6B71;
+    color: #ff000a;
   }
 }
 
@@ -10217,21 +10219,4 @@ p {
   border-radius: 30px;
   background: rgba(0, 0, 0, 0.25);
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
-}
-
-#projectsheader{
-  background-color: black !important;
-}
-
-#footerprojects{
-  background-color: black !important;
-  opacity: 100% !important;
-}
-
-#projectbody{
-  background-color: black;
-}
-
-#mainNavprojects{
-  background-color: black !important;
 }
