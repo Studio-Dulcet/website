@@ -1,8 +1,5 @@
 @charset "UTF-8";
-@font-face {
-  font-family: "cat";
-  src: url("../fonts/Catcafe-v5yM.ttf") format('truetype');
-}
+
 :root {
   --dulcetpink: #FFB6D8;
   --dulcetblue: #8CFFFB;
