@@ -132,7 +132,7 @@ sup {
 }
 
 a {
-    color: #FFB6D8;
+    color: #FFB6D8 !important;
     text-decoration: none;
     background-color: transparent;
     text-align: center !important;
@@ -4576,13 +4576,13 @@ input[type=button].btn-block {
     padding: 0.5rem 0.75rem;
     margin-left: -1px;
     line-height: 1.25;
-    color: #e6a756;
+    color: #FFB6D8;
     background-color: #fff;
     border: 1px solid #dee2e6;
 }
 .page-link:hover {
     z-index: 2;
-    color: #d1831f;
+    color: #FFB6D8;
     text-decoration: none;
     background-color: #e9ecef;
     border-color: #dee2e6;
