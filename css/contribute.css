@@ -132,12 +132,13 @@ sup {
 }
 
 a {
-    color: #e6a756;
+    color: #FFB6D8;
     text-decoration: none;
     background-color: transparent;
+    text-align: center !important;
 }
 a:hover {
-    color: #d1831f;
+    color: #FF6B71;
     text-decoration: underline;
 }
 
@@ -4936,8 +4937,8 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 a {
-    display: flex;
-    align-items: flex-start;
+    display: block;
+    align-items: center;
 }
 
 .media-body {
@@ -9935,7 +9936,6 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    text-align: center;
 }
 
 p {
@@ -9967,10 +9967,8 @@ p {
 }
 
 .page-section {
-    display: block;
     margin-top: 5rem;
     margin-bottom: 5rem;
-    text-align: center;
 }
 
 .section-heading {
@@ -9987,10 +9985,6 @@ p {
     font-size: 3rem;
     font-weight: 100;
     text-align: center;
-}
-
-#link1{
-    text-align: center !important;
 }
 
 .bg-faded {
@@ -10202,9 +10196,9 @@ p {
 
 @keyframes progressAnimation2 {
     0%   { width: 0%; background-color: #F9BCCA;}
-    100% { width: 5%; background-color: #EF476F; }
-}
-
+    100% { width: 5%; background-color: #EF4
+    }
+76F; }
 .progress-bar2 {
     height: 18px;
     border-radius: 30px;
