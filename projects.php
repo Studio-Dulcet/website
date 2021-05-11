@@ -27,14 +27,14 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav mx-auto">
                         <li class="nav-item px-lg-4">
-                            <a class="nav-link text-uppercase text-expanded" href="index.html">
+                            <a class="nav-link text-uppercase text-expanded" href="index.php">
                                 Home
                                 <span class="sr-only">(current)</span>
                             </a>
                         </li>
-                        <li class="nav-item active px-lg-4"><a class="nav-link text-uppercase text-expanded" href="projects.html">Projects</a></li>
-                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase text-expanded" href="contact.html">Contact</a></li>
-                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase text-expanded" href="contribute.html">Contribute</a></li>
+                        <li class="nav-item active px-lg-4"><a class="nav-link text-uppercase text-expanded" href="projects.php">Projects</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase text-expanded" href="contact.php">Contact</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase text-expanded" href="contribute.php">Contribute</a></li>
                     </ul>
                 </div>
             </div>
