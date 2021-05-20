@@ -10,7 +10,7 @@
         <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet" />
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/contact.css" rel="stylesheet" />
     </head>
     <body>
         <h1 class="site-heading text-center text-white d-none d-lg-block">
@@ -34,7 +34,7 @@
                 </div>
             </div>
         </nav>
-        <section class="page-section">
+        <section class="page-section" id = "smeek">
             <div class="container">
                 <div class="product-item">
                     <div class="product-item-title d-flex">
@@ -53,7 +53,7 @@
                 </div>
             </div>
         </section>
-        <section class="page-section">
+        <section class="page-section" id = "wider">
             <div class="container">
                 <div class="product-item">
                     <div class="product-item-title d-flex">
