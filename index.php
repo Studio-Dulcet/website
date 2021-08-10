@@ -39,13 +39,13 @@
         <section class="page-section clearfix">
             <div class="container">
                 <div class="intro">
-                    <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="https://i.pinimg.com/originals/5c/43/d2/5c43d280ddfbd4a1b4c571874e699f8d.gif" alt="..." />
+                    <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="https://cdn.videogamesblogger.com/wp-content/uploads/2015/12/ps4-gif-animation-pink-anime-girls-play-too-2015-games-of-the-year.gif" alt="..." />
                     <div class="intro-text left-0 text-center bg-faded p-5 rounded">
                         <h2 class="section-heading mb-4">
-                            <span class="section-heading-lower">welcome owo</span>
+                            <span class="section-heading-lower">hello!</span>
                         </h2>
                         <p class="mb-3">we are a small studio that works with games, vocal synths, and other media types <br>
-                        we're also sluts for open source projects</p>
+                        </p>
                     </div>
                 </div>
             </div>

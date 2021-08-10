@@ -9936,7 +9936,7 @@ a.text-dark:hover, a.text-dark:focus {
     }
 }
 body {
-    background-image: url("../images/original.gif");
+    background-image: url("");
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
