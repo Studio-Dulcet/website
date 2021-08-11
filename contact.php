@@ -47,7 +47,7 @@
                     </div>
                     <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="images/smeek.png" alt="..." />
                     <div class="product-item-description d-flex mr-auto">
-                        <div class="bg-faded p-5 rounded"><p class="mb-0">smeek#0001 <br>
+                        <div class="bg-faded p-5 rounded"><p class="mb-0">smeek#0194 <br>
                         <a href  = "mailto:smeek@studiodulcet.com">smeek@studiodulcet.com</a></p></div>
                     </div>
                 </div>
@@ -59,22 +59,20 @@
                     <div class="product-item-title d-flex">
                         <div class="bg-faded p-5 d-flex mr-auto rounded">
                             <h2 class="section-heading mb-0">
-                                <span class="section-heading-upper">Cool Guy</span>
+                                <span class="section-heading-upper">Concept dude</span>
                                 <span class="section-heading-lower">Wider</span>
                             </h2>
                         </div>
                     </div>
                     <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="images/wider.png" alt="..." />
                     <div class="product-item-description d-flex ml-auto" style = "float: right;">
-                        <div class="bg-faded p-5 rounded" style = "float: right;"><p class="mb-0">YEETboi89#0002 <br>
+                        <div class="bg-faded p-5 rounded" style = "float: right;"><p class="mb-0" style="font-family: ">YEETboi89#0002 <br>
                         <a href = "mailto:wider@studiodulcet.com">wider@studiodulcet.com</a></p></div>
                     </div>
                 </div>
             </div>
         </section>
-        <footer class="footer text-faded text-center py-5">
-            <div class="container"><p class="m-0 small">Copyright © Studio Dulcet 2021</p></div>
-        </footer>
+
         <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
     </body>

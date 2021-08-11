@@ -1,27 +1,13 @@
 @charset "UTF-8";
 
-:root {
-  --dulcetpink: #FFB6D8;
-  --dulcetblue: #8CFFFB;
-  --dulcetyellow: #FFF28C;
-  --dulcetred: #FF6B71;
-  --breakpoint-xs: 0;
-  --breakpoint-sm: 576px;
-  --breakpoint-md: 768px;
-  --breakpoint-lg: 992px;
-  --breakpoint-xl: 1200px;
-  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+@font-face {
+  font-family: "fairy";
+  src: url("../fonts/getho.ttf") format('truetype');
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
 
 html {
-  font-family: sans-serif;
+  font-family: Fairy, serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -33,7 +19,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Lora", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Fairy, serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -150,13 +136,6 @@ a:not([href]):not([class]):hover {
   text-decoration: none;
 }
 
-pre,
-code,
-kbd,
-samp {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  font-size: 1em;
-}
 
 pre {
   margin-top: 0;
@@ -333,7 +312,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Fairy, serif, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 500;
   line-height: 1.2;
 }
@@ -9950,7 +9929,7 @@ p {
   margin-bottom: 5rem;
   text-transform: uppercase;
   line-height: 1;
-  font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Fairy, serif;
 }
 .site-heading .site-heading-upper {
   display: block;
@@ -9962,7 +9941,7 @@ p {
   font-weight: 100;
   line-height: 4rem;
   color: #FFB6D8 !important;
-  font-family: "cat", sans-serif;
+  font-family: Fairy, serif;
 }
 
 .page-section {
@@ -9985,7 +9964,7 @@ p {
 }
 
 .bg-faded {
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(255, 255, 255, 0);
 }
 
 .btn-xl {
@@ -10000,7 +9979,7 @@ p {
 #mainNav {
   background-color: #ffffff;
   opacity: .6;
-  font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Fairy, serif, "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 #mainNav .navbar-brand {
   color: #ff0008;
@@ -10014,10 +9993,10 @@ p {
 }
 @media (min-width: 992px) {
   #mainNav .navbar-nav .nav-item .nav-link {
-    font-size: 0.9rem;
+    font-size: 2rem;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: rgba(255, 255, 255, 0.4);
+    color: rgba(52, 0, 0, 0.4);
   }
   #mainNav .navbar-nav .nav-item.active .nav-link:hover {
     color: #ff000a;
@@ -10074,16 +10053,17 @@ p {
 }
 
 .intro {
-  position: relative;
+  position: center;
 }
 @media (min-width: 992px) {
   .intro .intro-img {
     width: 75%;
     float: right;
+
   }
   .intro .intro-text {
-    left: 0;
-    width: 60%;
+    left: 5px;
+    width: 25%;
     margin-top: 3rem;
     position: absolute;
   }

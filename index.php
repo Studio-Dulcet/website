@@ -15,7 +15,7 @@
     <body>
         <h1 class="site-heading text-center text-white d-none d-lg-block">
             <span class="site-heading-upper text-primary mb-3"></span>
-            <span class="site-heading-lower">studio dulcet</span>
+            <span class="site-heading-lower" style = "font-family: Fairy, serif">studio dulcet</span>
         </h1>
 
         <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
@@ -36,51 +36,11 @@
                 </div>
             </div>
         </nav>
-        <section class="page-section clearfix">
-            <div class="container">
-                <div class="intro">
-                    <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="https://cdn.videogamesblogger.com/wp-content/uploads/2015/12/ps4-gif-animation-pink-anime-girls-play-too-2015-games-of-the-year.gif" alt="..." />
-                    <div class="intro-text left-0 text-center bg-faded p-5 rounded">
-                        <h2 class="section-heading mb-4">
-                            <span class="section-heading-lower">hello!</span>
-                        </h2>
-                        <p class="mb-3">we are a small studio that works with games, vocal synths, and other media types <br>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="page-section cta">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-9 mx-auto">
-                        <div class="cta-inner text-center rounded">
-                            <h2 class="section-heading mb-4">
-                                <span class="section-heading-lower">Current Pipeline</span>
-                            </h2>
-                            <div class="container" id = #iwywhprogressbar>
-                                <p class = "mb-3">i wish you were here</p>
-                                <div class="progress1 progress-moved">
-                                    <div class="progress-bar1" >
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="container" id = #utauprogressbar>
-                                <p class = "mb-3">UTAU</p>
-                                <div class="progress2 progress-moved">
-                                    <div class="progress-bar2" >
-                                    </div>
-                                </div>
-                            </div>
 
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <footer class="footer text-faded text-center py-5">
-            <div class="container"><p class="m-0 small">Copyright © Studio Dulcet 2021</p></div>
-        </footer>
+        <div class ="p-5 d-flex ml-auto rounded align-content-center">
+            <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="https://cdn.videogamesblogger.com/wp-content/uploads/2015/12/ps4-gif-animation-pink-anime-girls-play-too-2015-games-of-the-year.gif" alt="..." />
+        </div>
+
         <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
     </body>

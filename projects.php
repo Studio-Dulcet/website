@@ -42,9 +42,19 @@
         <section class="page-section about-heading" id = "projectsheader">
             <div class="container">
                 <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="images/red_square.png" alt="..." />
+                <div class ="p-5 d-flex ml-auto rounded align-content-center">
+                    <div class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0">
+
+                        <p style = "font-family: number, serif; font-size: 20px;">
+                            coming in 2022
+
+                        </p>
+                    </div>
+                </div>
                 <div class="about-heading-content">
                     <div class="row">
                         <div class="col-xl-9 col-lg-10 mx-auto">
+
                     </div>
                 </div>
             </div>
@@ -60,9 +70,6 @@
             <div class="code version-section">
             </div>
         </div>
-        <footer class="footer text-faded text-center py-5" id = "footerprojects">
-            <div class="container"><p class="m-0 small">Copyright © Studio Dulcet 2021</p></div>
-        </footer>
         <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
     </body>

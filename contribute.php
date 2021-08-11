@@ -36,21 +36,17 @@
         </div>
     </div>
 </nav>
-<section class="page-section">
-    <div class="container">
-        <div class="product-item">
-            <div class="product-item-title d-flex">
-                <div class="bg-faded p-5 d-flex ml-auto rounded align-content-center" style = "text-align: center !important;">
-                    <h2 class="section-heading mb-0">
-                        <span class="section-heading-lower" style = "font-size: 60px; font-style: oblique;">so i hear u wanna contribute owo</span>
-                        <span class="section-heading-lower" style = "font-size: 40px;">that's great! <br>
-                        we allow outside contributors to our <a href="https://github.com/Studio-Dulcet"style = "color: #FFB6D8;">github org</a>
-                                our main repositories are <br>
-                            <a href="https://github.com/Studio-Dulcet/i-wish-you-were-here" style = "color: #FFB6D8;">i wish you were here</a>
-                            <a href="https://github.com/Studio-Dulcet/website" style = "color: #FFB6D8;">and our website</a> <br>
-                        happy contributing!</span>
-                    </h2>
-                </div>
-            </div>
-        </div>
-</section>
+<div class ="p-5 d-flex ml-auto rounded align-content-center">
+    <div class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0">
+
+        <p>
+        <a href="https://github.com/Studio-Dulcet" style = "color: #FFB6D8; font-family: Fairy, serif; font-size: 70px;">github org</a>
+        <br>
+        <a href="https://github.com/Studio-Dulcet/i-wish-you-were-here" style = "color: #FFB6D8; font-family: Fairy, serif; font-size: 70px;" >i wish you were here</a>
+        <br>
+        <a href="https://github.com/Studio-Dulcet/website" style = "color: #FFB6D8; font-family: Fairy, serif; font-size: 70px;">our website</a>
+        <br>
+
+        </p>
+    </div>
+</div>
