@@ -40,11 +40,11 @@
     <div class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0">
 
         <p>
-        <a href="https://github.com/Studio-Dulcet" style = "color: #FFB6D8; font-family: Fairy, serif; font-size: 70px;">github org</a>
+        <a href="https://github.com/Studio-Dulcet" style = "color:#9edde6; font-family: Fairy, serif; font-size: 70px;">github org</a>
         <br>
-        <a href="https://github.com/Studio-Dulcet/i-wish-you-were-here" style = "color: #FFB6D8; font-family: Fairy, serif; font-size: 70px;" >i wish you were here</a>
+        <a href="https://github.com/Studio-Dulcet/i-wish-you-were-here" style = "color:#9edde6; font-family: Fairy, serif; font-size: 70px;" >i wish you were here</a>
         <br>
-        <a href="https://github.com/Studio-Dulcet/website" style = "color: #FFB6D8; font-family: Fairy, serif; font-size: 70px;">our website</a>
+        <a href="https://github.com/Studio-Dulcet/website" style = "color:#9edde6; font-family: Fairy, serif; font-size: 70px;">our website</a>
         <br>
 
         </p>

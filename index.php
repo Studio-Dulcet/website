@@ -38,7 +38,7 @@
         </nav>
 
         <div class ="p-5 d-flex ml-auto rounded align-content-center">
-            <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="https://cdn.videogamesblogger.com/wp-content/uploads/2015/12/ps4-gif-animation-pink-anime-girls-play-too-2015-games-of-the-year.gif" alt="..." />
+            <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="https://i.redd.it/h993a9xoecr61.gif" alt="..." />
         </div>
 
         <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>

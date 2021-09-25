@@ -41,14 +41,14 @@
                         <div class="bg-faded p-5 d-flex ml-auto rounded">
                             <h2 class="section-heading mb-0">
                                 <span class="section-heading-upper">Developer</span>
-                                <span class="section-heading-lower">Smeek</span>
+                                <span class="section-heading-lower">Kenzie</span>
                             </h2>
                         </div>
                     </div>
                     <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="images/smeek.png" alt="..." />
                     <div class="product-item-description d-flex mr-auto">
-                        <div class="bg-faded p-5 rounded"><p class="mb-0">smeek#0194 <br>
-                        <a href  = "mailto:smeek@studiodulcet.com">smeek@studiodulcet.com</a></p></div>
+                        <div class="bg-faded p-5 rounded"><p class="mb-0"><br>
+                        <a href  = "mailto:smeek@studiodulcet.com">kenzie@studiodulcet.com</a></p></div>
                     </div>
                 </div>
             </div>
@@ -59,7 +59,7 @@
                     <div class="product-item-title d-flex">
                         <div class="bg-faded p-5 d-flex mr-auto rounded">
                             <h2 class="section-heading mb-0">
-                                <span class="section-heading-upper">Concept dude</span>
+                                <span class="section-heading-upper">Funny Comity</span>
                                 <span class="section-heading-lower">Wider</span>
                             </h2>
                         </div>

@@ -3906,9 +3906,6 @@ input[type=button].btn-block {
     background-color: #fff;
     border-color: #dee2e6 #dee2e6 #fff;
 }
-.nav-link.active{
-    color: #FF6B71 !important;
-}
 
 .nav-tabs .dropdown-menu {
     margin-top: -1px;
@@ -9933,7 +9930,7 @@ p {
     font-size: 5rem;
     font-weight: 100;
     line-height: 4rem;
-    color: #FFB6D8 !important;
+    color: #8FD2C7 !important;
     font-family: Fairy, serif;
 }
 
@@ -9976,15 +9973,16 @@ p {
     opacity: .6;
     font-family: Fairy, serif, "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
 #mainNav .navbar-brand {
-    color: #ff0008;
+    color: #8FD2C7;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
-    color: #ff9d9f;
+    color: #F995A2;
     font-weight: 800;
 }
 #mainNav .navbar-nav .nav-item.active .nav-link {
-    color: #FF6B71;
+    color: #c35c67;
 }
 @media (min-width: 992px) {
     #mainNav .navbar-nav .nav-item .nav-link {
@@ -9994,7 +9992,7 @@ p {
         color: rgba(52, 0, 0, 0.4);
     }
     #mainNav .navbar-nav .nav-item.active .nav-link:hover {
-        color: #ff000a;
+        color: #8FD2C7;
     }
 }
 
